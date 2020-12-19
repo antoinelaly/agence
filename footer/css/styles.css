@@ -1,0 +1,73 @@
+
+
+.red {
+	border-color: red;
+}
+
+.green {
+	border-color: green;
+}
+
+.blue {
+	border-color: blue;
+}
+
+.purple {
+	border-color: #a70da7;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+#container {
+	width: 100%;
+	max-width: 1200px;
+}
+
+
+footer {
+	background-color: #5b359d;
+	padding-top: 18px;
+}
+
+#socialNetwork {
+	display: flex;
+	justify-content: center;
+}
+
+#socialNetwork svg {
+	height: 30px;
+	color: rgba(255, 255, 255, .6);
+	margin: 0 40px 0 40px;
+}
+
+#copyright {
+	color: white;
+	text-align: center;
+	font-size: 0.5em;
+	font-weight: 400;
+}
+
+#footerContent {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.footerColumn h3 {
+	color: rgba(255, 255, 255, .6);
+	margin-top: 30px;    
+	font-weight: 400;
+    font-size: 1.0em;
+}
+
+.footerColumn li, .footerColumn p {
+	color: white;
+}
+
+.footerColumn li::marker, .footerColumn p::marker {
+	color: white;
+}
